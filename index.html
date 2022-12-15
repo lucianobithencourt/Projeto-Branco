@@ -15,7 +15,10 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
-    <title>Aplicativo Finans</title>
+    <!-- Icona Google -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <title>Finans</title>
 </head>
 
 
@@ -23,26 +26,97 @@
 
     <!-- Inicio Cabeçalho -->
     <header>
-        <nav class="navbar-expand-sm navbar-light bg-warning">
-            <div class="container py-2">
+        
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning ">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" width="142" alt="logo">
+        </a>
 
-                <a href="#" class="nav-brand ">
-                    <img src="img/logo.png" width="142" alt="logo da marca">
-                </a>
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Home</a>
-                        </li>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
 
-                    </ul>
-                  </div>
-            </div>
+          <span class="navbar-toggler-icon"></span>
 
-        </nav>
+        </button>
 
-    </header>
-    <!-- Fim Cabeçalho -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Destaques</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Preços</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Desativado</a>
+            </li>
+
+            <li>
+                <button class="btn btn-outline-light ml-4" >Enviar</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+   </header>
+        <!-- Fim Cabeçalho -->
+
+        <main >
+            <section id="home">
+                <div class="container">
+                    <div class="row">
+
+                    <div class="col-md-6 d-flex">
+                        <div class="align-self-center">
+                            <h1 class="display-4">Suas contas descomplicadas,</h1>
+
+                            <p class=lead>Usado por mais de um 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira.</p>
+
+                            <form action="itexto">
+                                <div class="input-group mt-5">
+                                <input class="form-control" type="text" name="texto" id="itexto"
+                                placeholder="Seu e-mail">
+                                <div class="input-group-append">
+
+                                <button class="btn btn-primary" type="button">Cadastrar</button>
+
+                                </div>
+                            </div>
+                        </form>
+
+                        <p class="lead mt-3">Disponivel para : 
+                          <a href="#" class="btn btn-light">
+                            <span         class="material-symbols-outlined" style="font-size:1.5em">
+                                android
+                                </span>
+                          </a>     
+                          
+                          <a href="#" class="btn btn-light">
+                            <span         class="material-symbols-outlined" style="font-size:1.5em">
+                                
+                                </span>
+                          </a>
+                        </p>
+                        
+                    </div>
+                </div>
+                        
+                    <div class="col-md-6">
+                        <img src="img/capa-mulher.png" alt="imagem mulher sorrindo">
+                    </div>
+                </div>
+             </div>
+            
+                
+            </section>
+
+            
+        </main>
 
 
     <!-- JavaScript (Opcional) -->
