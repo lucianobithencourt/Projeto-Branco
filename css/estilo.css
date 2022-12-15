@@ -1,4 +1,14 @@
-#home {
-	background: #ffc107;
-	color: white;
+@charset "utf-8";
+
+
+:root {
+
+	--corPadrao:#ffc107;
+	--cor:#ffffff;
 }
+
+.navegacao{
+	background-color: #ffc107;
+	color: #ffffff;
+}
+
