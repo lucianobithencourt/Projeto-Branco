@@ -1,130 +1,195 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
+  <head>
     <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
 
     <!-- CSS Customizado -->
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilo.css" />
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
     <!-- Bootstrap icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
 
     <!-- FontAwesome  -->
-    <link rel="stylesheet" href="fontawesome/all.css">
-
-
-
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
 
     <title>Finans</title>
-</head>
+  </head>
 
-
-<body>
-
+  <body>
     <!-- Inicio Cabeçalho -->
     <header>
-        
-    <nav class="navbar navbar-expand-lg navbar-light bg-warning ">
-        <a class="navbar-brand" href="#">
-            <img src="img/logo.png" width="142" alt="logo">
-        </a>
+      <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+        <!-- Logo -->
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" width="142" alt="logo da marca" />
+          </a>
+        </div>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-
+        <!-- Resposividade do MenuDeNavegação -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+        >
           <span class="navbar-toggler-icon"></span>
-
         </button>
 
+        <!-- Menu -->
         <div class="collapse navbar-collapse" id="navbarNav">
-
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only"></span
+              ></a>
             </li>
-
             <li class="nav-item">
-              <a class="nav-link" href="#">Destaques</a>
+              <a class="nav-link" href="#">Recursos</a>
             </li>
-
+            <li class="nav-item">
+              <a class="nav-link" href="#">Beneficíos</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Preços</a>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">Desativado</a>
-            </li>
-
             <li>
-                <button class="btn btn-outline-light ml-4" >Enviar</button>
+              <button class="btn btn-outline-light ml-4">Entrar</button>
             </li>
           </ul>
         </div>
       </nav>
-   </header>
-        <!-- Fim Cabeçalho -->
+    </header>
+    <!-- Fim Cabeçalho -->
 
-        <main >
-            <section id="home">
-                <div class="container">
-                    <div class="row">
+    <!-- inicio primeiro conteudo -->
+    <section id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <!-- Textos da sessão -->
+              <h1 class="display-4">Suas contas descomplicadas</h1>
+              <p class="lead">
+                Usado por mais de 1 milhão de pessoas, oFinans é uma ferramenta
+                online que vai facilitar sua vida financeira.
+              </p>
 
-                    <div class="col-md-6 d-flex">
-                        <div class="align-self-center">
-                            <h1 class="display-4">Suas contas descomplicadas,</h1>
-
-                            <p class=lead>Usado por mais de um 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira.</p>
-
-                            <form action="itexto">
-                                <div class="input-group mt-5">
-                                <input class="form-control" type="text" name="texto" id="itexto"
-                                placeholder="Seu e-mail">
-                                <div class="input-group-append">
-
-                                <button class="btn btn-primary" type="button">Cadastrar</button>
-
-                                </div>
-                            </div>
-                        </form>
-
-                        <p class="lead mt-3">Disponivel para : 
-                          <a href="#" class="btn btn-light">
-                            <i class="bi bi-apple"></i>
-                          </a>     
-                          <i class="bi bi-xbox"></i>
-                          <a href="#" class="btn btn-light">
-                            <i class="bi bi-xbox"></i>
-                            
-                          </a>
-                        </p>
-                        <i class="fa-brands fa-facebook"></i>
-                    </div>
+              <!-- Formulário -->
+              <form class="my-4" action="icadastro ">
+                <div class="input-group-lg">
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="cadastro"
+                    id="icadastro"
+                    placeholder="Seu e-mail aqui"
+                  />
                 </div>
-                        
-                    <div class="col-md-6">
-                        <img src="img/capa-mulher.png" alt="imagem mulher sorrindo">
-                    </div>
-                </div>
-             </div>               
-          </section>
-     </main>
 
+                <div class="input-group-append">
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-block"
+                  >
+                    Cadastra-se
+                  </button>
+                </div>
+              </form>
+
+              <p class="lead">
+                Disponivel para :
+                <a class="btn btn-outline-light" href="#"
+                  ><i class="fa-brands fa-android" style="font-size: 1.5em"></i
+                ></a>
+
+                <a class="btn btn-outline-light" href="#"
+                  ><i class="fa-brands fa-apple" style="font-size: 1.6em"></i
+                ></a>
+              </p>
+            </div>
+          </div>
+          <!-- ImagemMulher esconder img d-none d-md-block -->
+          <div class="col-md-6 d-none d-md-block">
+            <img src="img/capa-mulher.png" alt="imagem mulher" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- fim primeiro conteudo -->
+
+    <!-- inicio segundo conteudo -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-6 d-flex">
+            <div class="align-self-center">
+              <h2>Lorem ipsum dolor,</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+                sint corporis praesentium, expedita dignissimos provident
+                exercitationem illo laboriosam nobis dicta deleniti similique
+                quae explicabo tempore porro doloremque dolores quos temporibus.
+              </p>
+            </div>
+          </div>
+          <!-- imagem juros -->
+          <div class="col-6">
+            <img
+              class="img-fluid"
+              src="img/economize.png"
+              alt="imagem de um relogio"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- fim segundo conteudo -->
+
+    <!-- inicio terceiro conteudo -->
+    <section>
+      <div></div>
+    </section>
+    <!--  -->
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
