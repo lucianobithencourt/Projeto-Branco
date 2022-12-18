@@ -16,3 +16,11 @@
 	color: white;
 }
 
+ul li a {
+	color: #000000;
+}
+
+ul li a:hover {
+	color: ffc107;
+}
+
