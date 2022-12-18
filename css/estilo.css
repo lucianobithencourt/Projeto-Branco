@@ -8,7 +8,11 @@
 }
 
 #home{
-	background-color: #ffc107;
+	background-color: var(--corPadrao);
 	color: #ffffff;
+}
+
+#texto-footer {
+	color: white;
 }
 
